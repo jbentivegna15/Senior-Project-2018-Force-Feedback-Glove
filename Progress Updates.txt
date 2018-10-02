@@ -1,0 +1,6 @@
+Joseph Bentivegna
+Week 4 - 10/2/2018 - This week I build simple architecture on a breadboard to model the functionality of one of our accelerometers.
+I wired a Teensy (microcontroller) to a MPU-9265 (accelerometer) and then connected both to my computer via USB.  I then followed a tutorial on how to
+map simple 3-degree motion from an accelerometer into the Unity engine.  I learned a lot about coding in C++ and C# and how information is passed using
+a serial connection between the teensy and the Unity engine. By the time of writing this update I have successfully connected the physical breadboard to
+a rectangular prism object in Unity which allows a user to rotate the breadboard in space and see the same motion on the rectangular object.
