@@ -6,3 +6,6 @@ This repository contains the code to run a force-feedback glove in VR. The glove
 Environments used: Arduino IDE and Unity
 
 Languages used: arduino, C++ and C#. 
+
+Sources:
+https://www.aidanlawrence.com/diy-arduino-unity-motion-controller/
