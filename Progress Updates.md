@@ -15,6 +15,9 @@ Have started looking into accelerometers to use. Trying to select accelerometers
 
 Week 5:
 
+Joseph Bentivegna
+10/8/2018 - Worked on adding functionality to my current Unity setup. Attempted to add spacial movement in addition to rotational.  Spent time learning about SPI communication interface.  Discussed the possibility of changing from Unity to Unreal Engine.
+
 Luka Lipovac
 10/8/2018 - Began converting Joseph's Teensy code for processing accelerometer data to an STM32 Nucleo development board. Also began drafting a preliminary schematic for the PCB that will be mounted on the users hand. When an accelerometer is fully decided on the schematic will be finalized. Began looking into haptic devices with the help of Jerry Qui (who is very experienced in haptics from previous work). 
 
@@ -24,6 +27,8 @@ Varouzan Knouni
 
 Week 6:
 
+Joseph Bentivegna
+10/16/2017 - Recieved lab access to Prof. Shlayan's GPU cluster and began experimenting with VR setups in Unity and Unreal.  
+
 Luka Lipovac
-10/13/2017
-Started and finished the pin assignment for the STM32F401RE that will be used on the glove board. The plan as of now is to use three separate SPI interfaces to communicate with the 16 planned accelerometers. 1 of the busses will control gather data from the 6 accelerometers from the pinky and ring finger, 1 will do the same for the middle and pointer finger, and the last one will do the same with the thumb, hand, and arm. The glove board will communicate with our PCs over USB full-speed (2.0) testing spatial tracking, but will eventually communicate over USART to the board housed in the on desk box that is controlling the forced feedback. The glove board MCU will be powered by USB for now too. Initial schematic design has been started and will hopefully wrap up by the end of the week.  
+10/13/2017 - Started and finished the pin assignment for the STM32F401RE that will be used on the glove board. The plan as of now is to use three separate SPI interfaces to communicate with the 16 planned accelerometers. 1 of the busses will control gather data from the 6 accelerometers from the pinky and ring finger, 1 will do the same for the middle and pointer finger, and the last one will do the same with the thumb, hand, and arm. The glove board will communicate with our PCs over USB full-speed (2.0) testing spatial tracking, but will eventually communicate over USART to the board housed in the on desk box that is controlling the forced feedback. The glove board MCU will be powered by USB for now too. Initial schematic design has been started and will hopefully wrap up by the end of the week.  
