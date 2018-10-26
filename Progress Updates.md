@@ -32,3 +32,9 @@ Joseph Bentivegna
 
 Luka Lipovac
 10/13/2017 - Started and finished the pin assignment for the STM32F401RE that will be used on the glove board. The plan as of now is to use three separate SPI interfaces to communicate with the 16 planned accelerometers. 1 of the busses will control gather data from the 6 accelerometers from the pinky and ring finger, 1 will do the same for the middle and pointer finger, and the last one will do the same with the thumb, hand, and arm. The glove board will communicate with our PCs over USB full-speed (2.0) testing spatial tracking, but will eventually communicate over USART to the board housed in the on desk box that is controlling the forced feedback. The glove board MCU will be powered by USB for now too. Initial schematic design has been started and will hopefully wrap up by the end of the week.  
+
+
+Week 7:
+
+Luka Lipovac
+10/20/2017 - Reasearched methods of spatial positional tracking with minimal not increasing error. Found the Vive Tracker to be a useful tool as it can be mounted on teh arm in an unobtrusive manner and used for positioning the hand in space. As for tracking finger movement in space, looked into using gyroscopes to track angular changes in joints relative to the gyroscope placed underneath the vive tracker. Will implement a two joint system in the coming week to verify that this is a viable method. 
