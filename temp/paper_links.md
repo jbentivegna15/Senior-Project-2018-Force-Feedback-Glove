@@ -1,0 +1,5 @@
+The effects of electroadhesive clutch design parameters on performance characteristics:
+https://www.researchgate.net/publication/327805085_The_effects_of_electroadhesive_clutch_design_parameters_on_performance_characteristics?fbclid=IwAR1dvldyBvHRpQH3qKwshEQuP0h4X6bd78hJO62AbAWUfJy_falKJ72RRJM
+
+
+
