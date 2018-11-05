@@ -36,5 +36,18 @@ Luka Lipovac
 
 Week 7:
 
+Joseph Bentivegna
+10/23/2017 - Installed SteamVR Asset for Unity and began experimenting with simple tracking using HTC Vive hardware.  This is the first step on geting localized hand tracking.  All hardware will be based on relative position to existing Vive hardware.  Explored using SteamVR prefab models for hand/finger objects in Unity.  Ordered HTC Vive Tracker to use on prototype finger tracking.  
+
 Luka Lipovac
 10/20/2017 - Reasearched methods of spatial positional tracking with minimal not increasing error. Found the Vive Tracker to be a useful tool as it can be mounted on teh arm in an unobtrusive manner and used for positioning the hand in space. As for tracking finger movement in space, looked into using gyroscopes to track angular changes in joints relative to the gyroscope placed underneath the vive tracker. Will implement a two joint system in the coming week to verify that this is a viable method. 
+
+Week 8:
+
+Joseph Bentivegna
+10/30/2017 - Recieved HTC Vive Tracker and began testing it in Unity environment.  Tracking was very accurate when tracker was attached to hand. Researched how to determine when items are touching in Unity. 
+
+Week 9:
+
+Joseph Bentivegna
+10/6/2017 - Worked to get relative motion working in Unity. This involves tracking one static item at the core and tracking another item relative to the first.  I used the Vive tracker as the initial item and attached this to a hinged pipe.  I then used a second controller as the other item and worked to link the objects in unity such that they stayed constrained relative to eachother.
