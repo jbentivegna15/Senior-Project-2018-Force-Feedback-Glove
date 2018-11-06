@@ -47,7 +47,12 @@ Week 8:
 Joseph Bentivegna
 10/30/2017 - Recieved HTC Vive Tracker and began testing it in Unity environment.  Tracking was very accurate when tracker was attached to hand. Researched how to determine when items are touching in Unity. 
 
+Luka Lipovac
+10/30/2017 - Cleaned, rebuilt, and reconfigured the computer we are developing on. Settled on a way to actuate the glove through the use of Electroadhesive clutches.. Got in touch with researchers from Carnegie Melon and obtained their research into this actuation method along with their work on the electrical aspect of it. Created block diagram for system along with begining the transition to the bluetooth variant of our current chip in the preliminary schematic. 
+
 Week 9:
 
 Joseph Bentivegna
-10/6/2017 - Worked to get relative motion working in Unity. This involves tracking one static item at the core and tracking another item relative to the first.  I used the Vive tracker as the initial item and attached this to a hinged pipe.  I then used a second controller as the other item and worked to link the objects in unity such that they stayed constrained relative to eachother.
+11/6/2017 - Worked to get relative motion working in Unity. This involves tracking one static item at the core and tracking another item relative to the first.  I used the Vive tracker as the initial item and attached this to a hinged pipe.  I then used a second controller as the other item and worked to link the objects in unity such that they stayed constrained relative to eachother.
+
+11/6/2017 - Busy week with class and family, was not able to do much. <3
