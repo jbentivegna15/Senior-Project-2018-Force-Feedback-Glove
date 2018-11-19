@@ -72,6 +72,6 @@ Varouzan Knouni
 
 Week 10:
 
-11/19/2018 - Hooked up to IMUs on the same I2C bus and proceded in getting readings from both of them. Developed code to output data read (converted to float to match realistic values) to PC COM port in string format. Device offers limited I2C addresses so code as to be converted to use SPI instead at some point for final product. Register settings where tested, and some minor modification on sampling rate was imposed. 
+11/20/2018 - Hooked up to IMUs on the same I2C bus and proceded in getting readings from both of them. Developed code to output data read (converted to float to match realistic values) to PC COM port in string format. Device offers limited I2C addresses so code as to be converted to use SPI instead at some point for final product. Register settings where tested, and some minor modification on sampling rate was imposed. Also worked on report outline.  
 
 
