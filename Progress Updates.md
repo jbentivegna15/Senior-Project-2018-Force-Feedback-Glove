@@ -31,7 +31,10 @@ Joseph Bentivegna
 10/16/2017 - Recieved lab access to Prof. Shlayan's GPU cluster and began experimenting with VR setups in Unity and Unreal.  
 
 Luka Lipovac
-10/13/2017 - Started and finished the pin assignment for the STM32F401RE that will be used on the glove board. The plan as of now is to use three separate SPI interfaces to communicate with the 16 planned accelerometers. 1 of the busses will control gather data from the 6 accelerometers from the pinky and ring finger, 1 will do the same for the middle and pointer finger, and the last one will do the same with the thumb, hand, and arm. The glove board will communicate with our PCs over USB full-speed (2.0) testing spatial tracking, but will eventually communicate over USART to the board housed in the on desk box that is controlling the forced feedback. The glove board MCU will be powered by USB for now too. Initial schematic design has been started and will hopefully wrap up by the end of the week.  
+10/13/2017 - Started and finished the pin assignment for the STM32F401RE that will be used on the glove board. The plan as of now is to use three separate SPI interfaces to communicate with the 16 planned accelerometers. 1 of the busses will control gather data from the 6 accelerometers from the pinky and ring finger, 1 will do the same for the middle and pointer finger, and the last one will do the same with the thumb, hand, and arm. The glove board will communicate with our PCs over USB full-speed (2.0) testing spatial tracking, but will eventually communicate over USART to the board housed in the on desk box that is controlling the forced feedback. The glove board MCU will be powered by USB for now too. Initial schematic design has been started and will hopefully wrap up by the end of the week. 
+
+Varouzan Knouni
+10/13/2017- Researching on IMUs (Internal Measurments Unit)s. Trying to quantify the sensitivity  and range of the measurments needed for accelerometer and gyroscope measurment units. Spent a lot of time on Digikey searching and comparing parts. Read a lot of datasheets.
 
 
 Week 7:
@@ -42,6 +45,9 @@ Joseph Bentivegna
 Luka Lipovac
 10/20/2017 - Reasearched methods of spatial positional tracking with minimal not increasing error. Found the Vive Tracker to be a useful tool as it can be mounted on teh arm in an unobtrusive manner and used for positioning the hand in space. As for tracking finger movement in space, looked into using gyroscopes to track angular changes in joints relative to the gyroscope placed underneath the vive tracker. Will implement a two joint system in the coming week to verify that this is a viable method. 
 
+Varouzan Knouni:
+10/20/2017 -Looked into different menthods of tra=cking. Read pappers and compared methods which invlolved added math on data with methods that required minimal math on data. Namely methods that invlolded integration of acceleretioj data rejected for introducing cummulative error. Selected approach for finger tracking. That is to track relative angles between finger joints, finger to wrist and forearm to wrist for complete hand mapping. Ordered IMUs to start testing.
+
 Week 8:
 
 Joseph Bentivegna
@@ -50,9 +56,22 @@ Joseph Bentivegna
 Luka Lipovac
 10/30/2017 - Cleaned, rebuilt, and reconfigured the computer we are developing on. Settled on a way to actuate the glove through the use of Electroadhesive clutches.. Got in touch with researchers from Carnegie Melon and obtained their research into this actuation method along with their work on the electrical aspect of it. Created block diagram for system along with begining the transition to the bluetooth variant of our current chip in the preliminary schematic. 
 
+Varouzan Knouni
+10/30/2017- Re-read datasheet of IMU + application notes. IMU is a programmable device which involves a lot of register that need to be set for correct operation. Figured out a preliminary register setting. Stared writting code to get data out from IMUs.
+
 Week 9:
 
 Joseph Bentivegna
 11/6/2017 - Worked to get relative motion working in Unity. This involves tracking one static item at the core and tracking another item relative to the first.  I used the Vive tracker as the initial item and attached this to a hinged pipe.  I then used a second controller as the other item and worked to link the objects in unity such that they stayed constrained relative to eachother.
 
+Luka Lipovac
 11/6/2017 - Busy week with class and family, was not able to do much. <3
+
+Varouzan Knouni
+11/6/2017- Pulled data out from single IMU. Moved development from local IDE to mbed.com, for better collaboration. 
+
+Week 10:
+
+11/19/2018 - Hooked up to IMUs on the same I2C bus and proceded in getting readings from both of them. Developed code to output data read (converted to float to match realistic values) to PC COM port in string format. Device offers limited I2C addresses so code as to be converted to use SPI instead at some point for final product. Register settings where tested, and some minor modification on sampling rate was imposed. 
+
+
