@@ -72,8 +72,11 @@ Varouzan Knouni
 
 Week 10:
 
+Joseph Bentivegna
+11/13/2018 - Wrote about design process and individual project components.  Formatted text for poster design and updated abstract. Presented poster at poster session and worked on abstract for final paper. 
+
 Luka Lipovac
-11/20/2018 - Made poster for midterm presentation with help from Joey and Varouzan. Contacted multiple suppliers for products that we need to develop electroadhesive clutch, including Dupont for their Luxprint dielectric. Picked electric components for electroadhesive clutch anf started electradhesive clutch test schematic.
+11/20/2018 - Made poster for midterm presentation with help from Joey and Varouzan. Contacted multiple suppliers for products that we need to develop electroadhesive clutch, including Dupont for their Luxprint dielectric. Picked electric components for electroadhesive clutch and started electradhesive clutch test schematic.
 
 Varouzan Knouni
 11/20/2018 - Hooked up to IMUs on the same I2C bus and proceded in getting readings from both of them. Developed code to output data read (converted to float to match realistic values) to PC COM port in string format. Device offers limited I2C addresses so code as to be converted to use SPI instead at some point for final product. Register settings where tested, and some minor modification on sampling rate was imposed. Also worked on report outline.
