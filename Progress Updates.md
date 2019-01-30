@@ -1,4 +1,4 @@
-Week 4:
+Fall Week 4:
 
 Joseph Bentivegna
 10/2/2018 - This week I build simple architecture on a breadboard to model the functionality of one of our accelerometers. I wired a Teensy (microcontroller) to a MPU-9265 (accelerometer) and then connected both to my computer via USB.  I then followed a tutorial on how to map simple 3-degree motion from an accelerometer into the Unity engine.  I learned a lot about coding in C++ and C# and how information is passed using a serial connection between the teensy and the Unity engine. By the time of writing this update I have successfully connected the physical breadboard to a rectangular prism object in Unity which allows a user to rotate the breadboard in space and see the same motion on the rectangular object.
@@ -13,7 +13,7 @@ Have started looking into accelerometers to use. Trying to select accelerometers
 
 
 
-Week 5:
+Fall Week 5:
 
 Joseph Bentivegna
 10/8/2018 - Worked on adding functionality to my current Unity setup. Attempted to add spacial movement in addition to rotational.  Spent time learning about SPI communication interface.  Discussed the possibility of changing from Unity to Unreal Engine.
@@ -25,7 +25,7 @@ Varouzan Knouni
 10/8/2018 - Began learning how to use the Unity Engine. Decided on witch microcontroller to use. Started to research DC motors and servos.
 
 
-Week 6:
+Fall Week 6:
 
 Joseph Bentivegna
 10/16/2017 - Recieved lab access to Prof. Shlayan's GPU cluster and began experimenting with VR setups in Unity and Unreal.  
@@ -37,7 +37,7 @@ Varouzan Knouni
 10/13/2017- Researching on IMUs (Internal Measurments Unit)s. Trying to quantify the sensitivity  and range of the measurments needed for accelerometer and gyroscope measurment units. Spent a lot of time on Digikey searching and comparing parts. Read a lot of datasheets.
 
 
-Week 7:
+Fall Week 7:
 
 Joseph Bentivegna
 10/23/2017 - Installed SteamVR Asset for Unity and began experimenting with simple tracking using HTC Vive hardware.  This is the first step on geting localized hand tracking.  All hardware will be based on relative position to existing Vive hardware.  Explored using SteamVR prefab models for hand/finger objects in Unity.  Ordered HTC Vive Tracker to use on prototype finger tracking.  
@@ -48,7 +48,7 @@ Luka Lipovac
 Varouzan Knouni:
 10/20/2017 -Looked into different menthods of tra=cking. Read pappers and compared methods which invlolved added math on data with methods that required minimal math on data. Namely methods that invlolded integration of acceleretioj data rejected for introducing cummulative error. Selected approach for finger tracking. That is to track relative angles between finger joints, finger to wrist and forearm to wrist for complete hand mapping. Ordered IMUs to start testing.
 
-Week 8:
+Fall Week 8:
 
 Joseph Bentivegna
 10/30/2017 - Recieved HTC Vive Tracker and began testing it in Unity environment.  Tracking was very accurate when tracker was attached to hand. Researched how to determine when items are touching in Unity. 
@@ -59,7 +59,7 @@ Luka Lipovac
 Varouzan Knouni
 10/30/2017- Re-read datasheet of IMU + application notes. IMU is a programmable device which involves a lot of register that need to be set for correct operation. Figured out a preliminary register setting. Stared writting code to get data out from IMUs.
 
-Week 9:
+Fall Week 9:
 
 Joseph Bentivegna
 11/6/2017 - Worked to get relative motion working in Unity. This involves tracking one static item at the core and tracking another item relative to the first.  I used the Vive tracker as the initial item and attached this to a hinged pipe.  I then used a second controller as the other item and worked to link the objects in unity such that they stayed constrained relative to eachother.
@@ -70,7 +70,7 @@ Luka Lipovac
 Varouzan Knouni
 11/6/2017- Pulled data out from single IMU. Moved development from local IDE to mbed.com, for better collaboration. 
 
-Week 10:
+Fall Week 10:
 
 Joseph Bentivegna
 11/13/2018 - Wrote about design process and individual project components.  Formatted text for poster design and updated abstract. Presented poster at poster session and worked on abstract for final paper. 
@@ -81,4 +81,14 @@ Luka Lipovac
 Varouzan Knouni
 11/20/2018 - Hooked up to IMUs on the same I2C bus and proceded in getting readings from both of them. Developed code to output data read (converted to float to match realistic values) to PC COM port in string format. Device offers limited I2C addresses so code as to be converted to use SPI instead at some point for final product. Register settings where tested, and some minor modification on sampling rate was imposed. Also worked on report outline.
 
+Spring Week 1:
+
+Luka Lipovac
+1/22/2019 - Finished test schematic and layout and ordered PCB. Ordered all other materials for testing electroadhesive clutch (PCB components, spring steel, lumilor dielectric, HV DC-DC converter). Began development of schematic for glove mounted board.
+
+
+Spring Week 2:
+
+Luka Lipovac
+1/29/2019 - Machined thin film deposition rod for depositing dielectric onto spring steel. Continued work on the glove board schematic and BOM. 
 
